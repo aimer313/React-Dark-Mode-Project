@@ -8,7 +8,7 @@ function App() {
   const [mode , setMode] = useState('light'); // whther dark of not
   const [alert , setAlert] = useState(null)
 
-  const showAlert = (message , type) => {
+  const showAlert = (message2 , type) => {
       setAlert({
         msg : message,
         type : type
